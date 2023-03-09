@@ -15,4 +15,4 @@ do  {
     i++;
 } while (true);
 
-chalk.redBright(console.log(`A média dos números é ${soma/i}`))
+console.log(chalk.redBright(`A média dos números é ${soma/i}`));
